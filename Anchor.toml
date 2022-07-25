@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+metaplex_anchor_nft = "CoFFNVYptpLHXmcchb9NnvNqRC95hBYmjk3rtMeeG6D7"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/sven/.config/solana/id.json"
+
+[scripts]
+test = "yarn test -p ./tsconfig.json -t 1000000"
