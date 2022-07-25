@@ -1,7 +1,7 @@
 {
     "scripts": {
         "fmt": "prettier */*.js \"*/**/*{.js,.ts}\" --write",
-        "test": "BROWSER= ANCHOR_PROVIDER_URL=\"https://api.devnet.solana.com\" ANCHOR_WALLET=/Users/sven/.config/solana/id.json ts-mocha tests/metaplex-anchor-nft.ts --timeout 10000"
+        "test": "BROWSER= ANCHOR_PROVIDER_URL=\"https://api.devnet.solana.com\" ANCHOR_WALLET=/home/svena/.config/solana/id.json ts-mocha tests/metaplex-anchor-nft.ts --timeout 10000"
     },
     "dependencies": {
         "@project-serum/anchor": "^0.24.2",

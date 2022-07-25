@@ -4,7 +4,7 @@ use anchor_spl::token;
 use anchor_spl::token::{MintTo, Token};
 use mpl_token_metadata::instruction::{create_master_edition_v3, create_metadata_accounts_v2,set_and_verify_collection};
 
-declare_id!("CoFFNVYptpLHXmcchb9NnvNqRC95hBYmjk3rtMeeG6D7");
+declare_id!("4zNQ3rDip2dsdJZxXgqFavaNFsVetdN65DWdFPLm54NE");
 
 #[program]
 pub mod metaplex_anchor_nft {
