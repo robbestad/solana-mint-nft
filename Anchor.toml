@@ -8,7 +8,7 @@ url = "https://anchor.projectserum.com"
 
 [provider]
 cluster = "devnet"
-wallet = "/Users/sven/.config/solana/id.json"
+wallet = "/home/svena/.config/solana/id.json"
 
 [scripts]
 test = "yarn test -p ./tsconfig.json -t 1000000"
